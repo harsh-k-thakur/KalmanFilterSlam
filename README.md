@@ -1,16 +1,16 @@
 # KalmanFilterSlam
 
-In this project, I have implemented Particle Filter for mapping the free space of the world.
+In this project, I have implemented KalMan Filter for finding the trajectory using the IMU data and features of the map.
 
-The data I have used for this is available on my google drive. There are multiple data that is used to create this peoject.
+The data I have used for this is available in the [data](/code/data/) dolfer under code. 
+There are multiple dataset that is used to create this peoject.
+Both dataset contains different paths of the project
 
-  1. IMU
-  2. Encoder
-  3. LiDAR
-  4. Stereo
+  1. 03.npz
+  2. 07.npz
 
-And as this is a robotics project, the rotation and transformation of the each particle are given in the param folder of this repository. This would help to locate the position of different sensor on my autonomous car.
+And as this is a robotics project, the features from left and right amera, along with rotation is all available in the python files names 03.npz and 07.npz file.
 
-The report for this project is available here.
+The report for this project is available [here](report/SLAM%20using%20EKF.pdf).
 
-The main code is available here. For this project I have heavily used Python and rest created everything from scratch.
+The main code is available [here](/code/EKF_SLAM_V2.ipynb). For this project I have heavily used Python and created everything from scratch.
